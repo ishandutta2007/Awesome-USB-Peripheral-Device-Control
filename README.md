@@ -6,11 +6,12 @@
 
 **A curated index of top-tier SaaS platforms, enterprise port control solutions, and open-source cybersecurity repositories for peripheral device authorization, hardware DLP, and removable media protection.**
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Tracked Devices](https://img.shields.io/badge/Focus-USB%20%7C%20Thunderbolt%20%7C%20Bluetooth-blue.svg)](https://github.com/ishandutta2007/Awesome-USB-Peripheral-Device-Control)
 [![Cybersecurity](https://img.shields.io/badge/Security-Endpoint%20DLP%20%26%20Zero--Trust-success.svg)](https://github.com/ishandutta2007/Awesome-USB-Peripheral-Device-Control)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-USB-Peripheral-Device-Control/blob/main/README.md#how-to-contribute)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-USB-Peripheral-Device-Control)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 </div>
 
@@ -34,6 +35,8 @@ This repository tracks **enterprise SaaS products** and **open-source GitHub sec
 - [🏢 Enterprise SaaS & Commercial Platforms](#-enterprise-saas--commercial-platforms)
 - [💻 Open-Source GitHub Projects](#-open-source-github-projects)
 - [🛠️ Architectural Comparison: SaaS vs. FOSS](#️-architectural-comparison-saas-vs-foss)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [⚠️ Disclaimer](#️-disclaimer)
 
@@ -115,6 +118,24 @@ flowchart TD
 1. **The Cross-Platform Enforcement Gap**: While Linux administrators have access to rock-solid default-deny tooling through **USBGuard**, there is currently **no single cross-platform open-source agent** that enforces port-blocking, full-disk removable media encryption, and content filtering across Windows, macOS, and Linux simultaneously.
 2. **Detection vs. Enforcement**: Tools like **osquery** and **usbrip** excel at passive monitoring, event forensics, and retrospective incident response. However, active hardware blocking on Windows and macOS remains dominated by commercial endpoint platforms.
 3. **Defense-in-Depth Recommendation**: Organizations running open-source environments should pair **USBGuard** on Linux machines with **Wazuh** or **Fleet/osquery** for SIEM aggregation, complemented by kiosk scrubbing stations like **CIRCLean** for physical data intake.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for visiting and supporting the **Awesome USB & Peripheral Device Control** project! Maintaining accurate pricing models, tracking emergent hardware vulnerabilities, and archiving open-source security tools takes dedication and continuous research.
+
+If you find this repository valuable:
+- ⭐ **Star** this repository on GitHub to boost visibility across the cybersecurity community.
+- 🍴 **Fork** and contribute newly discovered tools, bug fixes, or enterprise feature updates.
+- 📢 **Share** this list with fellow security engineers, IT administrators, and blue teams.
+- ☕ **Buy a Coffee / Sponsor**: Consider backing future development and maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-USB-Peripheral-Device-Control&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-USB-Peripheral-Device-Control&type=date&legend=top-left)
 
 ---
 
