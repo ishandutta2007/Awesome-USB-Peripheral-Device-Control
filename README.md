@@ -74,9 +74,9 @@ The following table indexes leading commercial solutions for USB, Thunderbolt, B
 
 The open-source ecosystem provides essential modular building blocks for **kernel-level auditing, daemon-based authorization, DFIR investigations, and custom endpoint telemetry**. 
 
-The repositories below are ranked in descending order by **GitHub Star Count**.
+The repositories below are ranked in descending order by **GitHub Stars_Count**.
 
-| 💻 Repository | ⭐ GitHub Stars | ⚖️ License | 🐧 Supported Platforms | 🎯 Primary Security Focus |
+| 💻 Repository | ⭐ GitHub_Stars | ⚖️ License | 🐧 Supported Platforms | 🎯 Primary Security Focus |
 | :--- | :--- | :--- | :--- | :--- |
 | **[osquery/osquery](https://github.com/osquery/osquery)** | [![Stars](https://img.shields.io/github/stars/osquery/osquery?style=social&color=white)](https://github.com/osquery/osquery/stargazers) | **Apache-2.0** | Linux, macOS, Windows | SQL-powered endpoint telemetry exposing connected USB devices, vendor IDs, serials, and system bus states. |
 | **[wazuh/wazuh](https://github.com/wazuh/wazuh)** | [![Stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers) | **GPL-2.0** | Linux, macOS, Windows | Open-source XDR & SIEM agent capable of ingesting USB plug/unplug events, generating alerts, and triggering automated port-disable scripts. |
@@ -148,7 +148,7 @@ Contributions, vendor corrections, and new open-source discoveries are warmly we
 3. Ensure entries adhere to table standards:
    - Specific pricing tiers (avoid vague terms like *"Custom"* or *"Contact Us"* if baseline slabs exist).
    - Concrete free trial durations and endpoint limits.
-   - For open-source tools, include the standard social star badge pointing to `/stargazers`.
+   - For open-source tools, include the standard social Stars_Badge pointing to `/stargazers`.
 4. **Commit & Push** your changes cleanly.
 5. **Open a Pull Request** with a concise summary of the addition or revision.
 
